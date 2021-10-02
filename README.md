@@ -1,3 +1,31 @@
+# Pygame——Gun Fight
+
+> * level: middle-
+
+> * techniques: pygame library based on python
+
+> * develop reason: one day I suddenly want to play a game when I was young, but I can not think of its name, so I just strat to create my own version
+
+> * my gain:
+> A practice project when I study python myself
+>  My first time to use a lot of "Class", inheritance and other OOP features
+>  And I start to know how to use pygame by adding images, music, and basic physical system build by myself(velocity, accelerate velocity, collision, recoil force...)
+>  
+> * deficiencies:
+>   * because of the pygame-limitations, a lot of new functionalities that I would like to add could not be implemented, such as multiple sound effects(pygame only support single BGM)
+>   * Because of the pygame performance limitation(or my poor programming skills :( ), the background pictures will lead to low fps situation, so there is only a black background in the back
+>   * Because this is my first time to use OOP, so the code is totally a mess, and there are many code redundancy, I was intended to add multiple weapans, skill systems, but I was too lazy to add...
+>   * The original movement, coliision system is a totally **disaster**, and according to my friends who gave me a hint about using real world physics system, then everythings were clear and straight, though the code is still a mess :(...
+
+## About the game
+
+> * I was intended to develop a double players gun fight plus single player version. However, I do not know how to build an AI at that time...
+> * how to play:
+>   * player1: wasd to move,g to attck which will use a sword to dash, with 2 seconds cooldown and if you hit enemy in a short distance, enemy will be pushed back.
+>   * player2: ←↑↓→ to move, l to attack, which will use a pistol to shot, only three bullets could be appeared in screen, pistol has small recoil force, bullets could also push enemy consistently.
+>   * w and ↑ are j jetpack system, if you push the key and hold then you could fly, and you also could double jump.
+>   * death: if you are exceed the left and right boundary for 2 seconds then you die(there are counter on the screen) if you touch the strikes in the upper and lower boundary you will also be dead.
+
 # Pygame小游戏——自制版混乱大枪战
 
 > * 难度：中等-
@@ -24,4 +52,10 @@
 >   * w键和↑键为喷气背包跳跃（虽然没有喷气效果o(*￣▽￣*)o）持续按住可以飞高，可在空中二连跳，但是要小心上方尖刺哦
 >   * 死亡判定：连续超出左右屏幕2s会造成死亡（在屏幕上会有提示）碰触到上下方的尖刺也同样会造成死亡
 
+![images](https://github.com/DAZHAdazha/Pygame-gunfight/blob/master/images/1.png)
 
+![images](https://github.com/DAZHAdazha/Pygame-gunfight/blob/master/images/2.png)
+
+![images](https://github.com/DAZHAdazha/Pygame-gunfight/blob/master/images/3.jpg)
+
+![images](https://github.com/DAZHAdazha/Pygame-gunfight/blob/master/images/4.jpg)
